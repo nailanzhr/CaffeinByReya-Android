@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Caffein by Reya</string>
+    <string name="tagline">Mocha &amp; Plum Specialty Coffee</string>
+    <string name="greeting_format">Halo, %1$s • Mocha &amp; Plum Specialty</string>
+
+    <!-- Autentikasi -->
+    <string name="login_title">Selamat Datang</string>
+    <string name="login_subtitle">Masuk untuk mengelola katalog Caffein by Reya</string>
+    <string name="register_title">Buat Akun Baru</string>
+    <string name="register_subtitle">Daftar sebagai admin/barista Caffein by Reya</string>
+    <string name="hint_nama">Nama Lengkap</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Kata Sandi (min. 6 karakter)</string>
+    <string name="btn_login">Masuk</string>
+    <string name="btn_register">Daftar Sekarang</string>
+    <string name="to_register">Belum punya akun? Daftar di sini</string>
+    <string name="to_login">Sudah punya akun? Masuk di sini</string>
+    <string name="btn_logout">Keluar Akun (Logout)</string>
+    <string name="err_empty_name">Nama lengkap wajib diisi</string>
+    <string name="err_invalid_email">Masukkan format email yang valid</string>
+    <string name="err_short_password">Kata sandi minimal 6 karakter</string>
+    <string name="err_login_failed">Email atau kata sandi salah</string>
+    <string name="err_email_exists">Email sudah terdaftar. Silakan masuk.</string>
+    <string name="msg_register_success">Registrasi berhasil! Silakan masuk.</string>
+    <string name="msg_login_success">Selamat datang kembali!</string>
+
+    <!-- Navigasi Bawah -->
+    <string name="nav_home">Katalog</string>
+    <string name="nav_add">Tambah</string>
+    <string name="nav_orders">Pesanan</string>
+    <string name="nav_outlet">Outlet</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Katalog, Filter & Urutkan -->
+    <string name="search_hint">Cari kopi, non-coffee, atau pastry...</string>
+    <string name="btn_sort">Urutkan</string>
+    <string name="sort_dialog_title">Urutkan Katalog Menu</string>
+    <string name="sort_newest">Terbaru</string>
+    <string name="sort_cheapest">Harga: Termurah</string>
+    <string name="sort_expensive">Harga: Termahal</string>
+    <string name="sort_az">Nama: Abjad A - Z</string>
+    <string name="cat_all">Semua</string>
+    <string name="cat_coffee">Coffee</string>
+    <string name="cat_non_coffee">Non-Coffee</string>
+    <string name="cat_pastry">Pastry</string>
+    <string name="empty_menu">Menu tidak ditemukan. Coba kata kunci lain atau tambah menu baru.</string>
+
+    <!-- Form & Detail Menu -->
+    <string name="title_add_menu">Tambah Menu Baru</string>
+    <string name="title_edit_menu">Edit Menu</string>
+    <string name="hint_menu_name">Nama Menu (cth: Kopi Susu Reya)</string>
+    <string name="hint_menu_price">Harga (Rp)</string>
+    <string name="hint_menu_desc">Deskripsi rasa &amp; komposisi</string>
+    <string name="label_category">Pilih Kategori</string>
+    <string name="btn_pick_photo">Pilih Foto Produk</string>
+    <string name="btn_save_menu">Simpan Menu</string>
+    <string name="btn_update_menu">Perbarui Menu</string>
+    <string name="btn_edit">Edit Menu</string>
+    <string name="btn_delete">Hapus Menu</string>
+    <string name="btn_order">Pesan Sekarang</string>
+    <string name="err_empty_menu_name">Nama menu tidak boleh kosong</string>
+    <string name="err_invalid_price">Masukkan harga yang valid</string>
+    <string name="err_empty_desc">Deskripsi menu wajib diisi</string>
+    <string name="msg_no_photo_selected">Tidak ada foto yang dipilih</string>
+    <string name="msg_menu_saved">Menu berhasil disimpan</string>
+    <string name="msg_menu_updated">Menu berhasil diperbarui</string>
+    <string name="msg_menu_deleted">Menu berhasil dihapus</string>
+    <string name="dialog_delete_title">Hapus Menu</string>
+    <string name="dialog_delete_msg">Yakin ingin menghapus \'%1$s\' dari katalog?</string>
+    <string name="btn_cancel">Batal</string>
+
+    <!-- Kamera & Runtime Permission CAMERA -->
+    <string name="cd_preview_foto_menu">Pratinjau foto produk menu</string>
+    <string name="dialog_sumber_foto_title">Pilih Sumber Foto</string>
+    <string name="opsi_ambil_foto">Ambil Foto (Kamera)</string>
+    <string name="opsi_pilih_galeri">Pilih dari Galeri</string>
+    <string name="dialog_izin_kamera_title">Izin Kamera Diperlukan</string>
+    <string name="dialog_izin_kamera_ditolak_msg">Akses kamera ditolak. Anda tetap dapat mengisi form menu dan memilih foto produk dari galeri perangkat.</string>
+    <string name="dialog_izin_kamera_permanen_msg">Izin kamera telah dinonaktifkan secara permanen. Aktifkan izin Kamera melalui Pengaturan Aplikasi jika ingin mengambil foto langsung, atau gunakan Galeri.</string>
+    <string name="btn_buka_pengaturan">Buka Pengaturan</string>
+    <string name="btn_gunakan_galeri">Pilih dari Galeri</string>
+    <string name="msg_kamera_tidak_tersedia">Perangkat ini tidak memiliki kamera. Silakan pilih foto dari galeri.</string>
+    <string name="msg_batal_ambil_foto">Pengambilan foto dibatalkan.</string>
+    <string name="msg_gagal_buat_file_foto">Gagal menyiapkan penyimpanan untuk foto kamera.</string>
+
+    <!-- BottomSheet & Keranjang Pesanan -->
+    <string name="sheet_unit_price_format">Harga Satuan: %1$s</string>
+    <string name="sheet_qty_label">Jumlah Porsi / Gelas</string>
+    <string name="sheet_qty_default">1</string>
+    <string name="btn_minus">-</string>
+    <string name="btn_plus">+</string>
+    <string name="sheet_subtotal_label">Subtotal Item</string>
+    <string name="btn_add_to_cart">Masukkan ke Keranjang</string>
+    <string name="msg_added_to_cart">%1$d x %2$s masuk ke Keranjang (%3$d item)</string>
+    <string name="cart_title">Keranjang Pesanan</string>
+    <string name="cart_empty">Keranjang masih kosong. Pilih menu di Katalog lalu masukkan ke keranjang.</string>
+    <string name="cart_item_line_format">• %1$dx %2$s (%3$s) — %4$s</string>
+    <string name="order_summary_line_format">• %1$dx %2$s (%3$s)</string>
+    <string name="cart_total_default">Total Keranjang: Rp0</string>
+    <string name="cart_total_format">Total Keranjang: %1$s</string>
+    <string name="btn_clear_cart">Kosongkan</string>
+    <string name="btn_checkout_cart">Buat Pesanan</string>
+    <string name="msg_cart_cleared">Keranjang dikosongkan</string>
+    <string name="msg_cart_empty_warn">Keranjang masih kosong!</string>
+    <string name="orders_section_title">Daftar Pesanan (Sedang Dibuat &amp; Selesai)</string>
+    <string name="orders_empty">Belum ada pesanan yang dibuat.</string>
+    <string name="order_title_format">Pesanan #%1$d</string>
+    <string name="order_total_format">Total: %1$s</string>
+    <string name="status_preparing">Sedang Dibuat</string>
+    <string name="status_completed">Selesai</string>
+    <string name="btn_mark_done">Selesai</string>
+    <string name="msg_order_created">Pesanan dibuat! Status: Sedang Dibuat</string>
+    <string name="msg_order_completed">Pesanan #%1$d telah Selesai!</string>
+
+    <!-- Outlet, Error Peta & Profil -->
+    <string name="outlet_title">Outlet Utama Caffein by Reya</string>
+    <string name="outlet_address">Jl. Merdeka No. 45, Kota Lhokseumawe, Aceh\nBuka Setiap Hari: 08.00 - 23.00 WIB</string>
+    <string name="btn_open_maps">Buka di Aplikasi Google Maps</string>
+    <string name="btn_retry_map">Coba Lagi</string>
+    <string name="err_map_offline">Peta tidak dapat dimuat, periksa koneksi internet Anda.</string>
+    <string name="err_no_maps_app">Aplikasi Google Maps tidak ditemukan di perangkat ini.</string>
+    <string name="profile_title">Profil Barista &amp; Admin</string>
+    <string name="profile_role">Role: Head Barista / Store Manager</string>
+    <string name="btn_change_photo">Ganti Foto Profil</string>
+</resources>

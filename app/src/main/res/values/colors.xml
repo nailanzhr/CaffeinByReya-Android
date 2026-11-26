@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="coffee_primary">#4E342E</color>
+    <color name="coffee_dark">#3E2723</color>
+    <color name="purple_accent">#6A1B9A</color>
+    <color name="purple_soft">#EFE5F5</color>
+    <color name="cream_bg">#FAF6F3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#231F20</color>
+    <color name="gray_text">#6D5D58</color>
+    <color name="red_delete">#C62828</color>
+</resources>
